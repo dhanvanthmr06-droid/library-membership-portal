@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "d2feaf14-310c-41a5-8b20-49a6d9e88e75",
+      "name": "Library Administrator",
+      "email": "admin@library.local",
+      "passwordHash": "$2a$10$F3.DrDVk9OLE1tg0w4VmiuVNZaxEZlhjRKcIdOC3ZawHjVwEFCeh.",
+      "role": "admin",
+      "membership": "Staff",
+      "joinedAt": "2026-10-27T05:15:48.497Z"
+    },
+    {
+      "id": "aaa979a0-fd82-49fd-a680-8e1257beca95",
+      "name": "Nishanth",
+      "email": "nishanthsivakumar1@gmail.com",
+      "passwordHash": "$2a$10$LcW0EkwueQi1U7DY9Aab0.eWq6.Nxk5S/y6f0izHseKL.6XsKARnq",
+      "role": "member",
+      "membership": "Standard",
+      "joinedAt": "2026-10-27T05:19:33.739Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": "85b9567f-97aa-4c3f-a5b9-b71d0a385ca2",
+      "userId": "aaa979a0-fd82-49fd-a680-8e1257beca95",
+      "memberName": "Nishanth",
+      "bookId": "b2",
+      "bookTitle": "The Alchemist",
+      "author": "Paulo Coelho",
+      "note": "",
+      "status": "Completed",
+      "createdAt": "2026-10-27T05:20:00.156Z",
+      "updatedAt": "2026-10-27T05:22:17.063Z"
+    }
+  ]
+}
